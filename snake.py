@@ -21,7 +21,7 @@ font = pygame.font.SysFont(None, 55)
 
 def text_screen(text, color, x, y):
     screen_text = font.render(text, True, color)
-    gameWindow.blit(screen_text, [x,y])
+    gameWindow.blit(screen_txt, [x,y])
 
 
 def plot_snake(gameWindow, color, snk_list, snake_size):
@@ -56,7 +56,7 @@ def gameloop():
 
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_RETURN:
-                        gameloop()
+                        gamelooop()
 
         else:
 
